@@ -1,0 +1,1 @@
+prompt("Red or Yellow")
