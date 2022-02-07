@@ -1,1 +1,0 @@
-prompt("Red or Yellow")
