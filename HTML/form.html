@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="request.php" method="push">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="stu_name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="stu_email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="Stu_password" id="password" required>
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="Stu_phone" id="phone" required placeholder="09_________">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept="audio,.jpg" name="Stu_passport" id="passport">
+        <br><br>
+        <label for="years">Year</label>
+        <select name="stu_year" id="years">
+        <option value="">Choose Years</option>
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+        <option value="3"selected>3rd Year</option>
+        </select>
+        <br><br>
+        <label for="birth">Birthday</label>
+        <input type="date" id="birth" name="Stu_dob">
+        <br><br>
+        <label for="">Hobbies</label>
+        <br><br>
+        <input type="checkbox" name="reading" id="reading"><label for="reading">Reading</label>
+        <input type="checkbox" name="swimming" id="swimming"><label for="swimming">Swimming</label>
+        <br><br>
+        <label for="gender">Gender</label>
+        <br><br>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="Str_address" id="address" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="date">
+        <input type="datetime-local">
+        <input type="week">
+        <input type="range" min="0" max="100" value="20">
+        <br><br>
+        <input type="color"><input type="text">
+        <input type="text" value="I am a programmer" readonly>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
